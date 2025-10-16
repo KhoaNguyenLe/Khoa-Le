@@ -22,7 +22,12 @@ export default function Home() {
 
           <NavigationMenuItem>
             <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-              <Link href="#">About</Link>
+              <div>
+                <Link href="/about">
+                  About
+                </Link>
+              </div>
+              
             </NavigationMenuLink>
           </NavigationMenuItem>
 

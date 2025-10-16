@@ -33,25 +33,41 @@ export default function Home() {
 
           <NavigationMenuItem>
             <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-              <Link href="#">Portfolio</Link>
+              <div>
+                <Link href="/portfolio">
+                  Portfolio
+                </Link>
+              </div>
             </NavigationMenuLink>
           </NavigationMenuItem>
 
           <NavigationMenuItem>
             <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-              <Link href="#">Publications</Link>
+              <div>
+                <Link href="/publications">
+                  Publications
+                </Link>
+              </div>
             </NavigationMenuLink>
           </NavigationMenuItem>
 
           <NavigationMenuItem>
             <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-              <Link href="#">Community</Link>
+              <div>
+                <Link href="/community">
+                  Community
+                </Link>
+              </div>
             </NavigationMenuLink>
           </NavigationMenuItem>
 
           <NavigationMenuItem>
             <NavigationMenuLink asChild className={navigationMenuTriggerStyle()}>
-              <Link href="#">Contacts</Link>
+              <div>
+                <Link href="/contacts">
+                  Contacts
+                </Link>
+              </div>
             </NavigationMenuLink>
           </NavigationMenuItem>
 
